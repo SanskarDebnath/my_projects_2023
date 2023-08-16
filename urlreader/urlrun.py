@@ -1,4 +1,9 @@
+# Write a function that reads a list of URLs from a file and tries to open each URL. 
+# Handle exceptions for invalid URLs and connectivity issues.
+
 import webbrowser as wb
+
+
 def fileOpen(fileVal):
     try:
             myFile = open(fileVal,"r")
